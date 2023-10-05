@@ -1,0 +1,32 @@
+name: field.blocks.mtable.name
+icon: table
+fields:
+  
+  headline:
+    label: field.blocks.mtable.section_headline
+    type: text
+      
+  mtable:
+    label: field.blocks.mtable.name
+    type: structure
+    sortable: true
+    fields:
+      first:
+        label: A
+        type: textarea
+      second:
+        label: B
+        type: textarea
+      third:
+        label: C
+        type: textarea
+    
+  columns:
+    label: field.blocks.mtable.columnscount
+    type: radio
+    default: 2
+    options: 
+      - 1
+      - 2
+      - 3
+  
